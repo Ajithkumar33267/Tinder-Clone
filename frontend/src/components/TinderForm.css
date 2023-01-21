@@ -1,0 +1,50 @@
+.tinterForm {
+  height: 500px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 2px solid gray;
+  box-shadow: 0px 5px 5px 2px rgb(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.form img {
+  height: 100px;
+}
+
+.form-name,
+.form-img {
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  font-size: 17px;
+  border: 2px solid gray;
+  outline: none;
+  border-radius: 10px;
+}
+
+.form button {
+  margin-bottom: 10px;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
